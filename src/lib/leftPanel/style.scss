@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+.left-panel{
+  width: 78px;
+  height: 100vh;
+  background: #f9f9f6;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.15);
+
+  .left-icon{
+    height: 70px;
+
+    &:hover{
+      background: #f0f0ea;
+      cursor: pointer;
+    }
+  }
+}
+
+.toolbar{
+  width: 0;
+  height: 100vh;
+  background: #f9f9f6;
+  position: fixed;
+  left: 78px;
+  top: 0;
+  box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.15);
+  transition: .4s width;
+  overflow: hidden;
+
+  &.opened{
+    width: 310px;
+  }
+
+  &>.wrapper{
+    width: 310px;
+    padding: 10px;
+  }
+}
