@@ -1,0 +1,647 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "Home",
+      "alias": "home",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": true,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 1,
+      "params": {
+        "margin": 0,
+        "published": 1,
+        "bodyBackgroundColor": "transparent"
+      },
+      "seoParams": {
+        "image": "1-seo-previewm.jpg",
+        "state": 0,
+        "robots": "index, follow",
+        "pageTitle": "Home",
+        "description": "",
+        "includedSitemap": "1"
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 2,
+      "title": "Off Canvas",
+      "alias": "off-canvas",
+      "component": null,
+      "type": "pageLayer",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": true,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 0,
+      "params": {
+        "layerType": "offCanvas",
+        "published": 1,
+        "showCloseBtn": 1,
+        "offCanvasWidth": 25.694444444444443,
+        "offCanvasCloseColor": "rgba(255, 255, 255, 0.3)",
+        "offCanvasBackgroundColor": "rgba(47, 59, 49, 0.94)"
+      },
+      "seoParams": [],
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 3,
+      "title": "404 Page",
+      "alias": "404",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 1,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "404 Page",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 4,
+      "title": "Offline Page",
+      "alias": "offline",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 2,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Offline Page",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 5,
+      "title": "Password Protected Page",
+      "alias": "password-protected",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 3,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Password Protected Page",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 6,
+      "title": "EcommerceProducts",
+      "alias": "",
+      "component": null,
+      "type": "pageEcommerceProducts",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": true,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 0,
+      "params": {
+        "published": 1
+      },
+      "seoParams": [],
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": [
+        {
+          "id": 7,
+          "title": "Product",
+          "alias": "",
+          "component": null,
+          "type": "pageEcommerceProduct",
+          "target": 0,
+          "homepage": false,
+          "isHeading": false,
+          "isHidden": true,
+          "externalUrl": "",
+          "navigationId": 0,
+          "ordering": 0,
+          "params": {
+            "published": 1
+          },
+          "seoParams": [],
+          "createdAt": null,
+          "updatedAt": null,
+          "deletedAt": null,
+          "parent": 6
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Product",
+      "alias": "",
+      "component": null,
+      "type": "pageEcommerceProduct",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": true,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 0,
+      "params": {
+        "published": 1
+      },
+      "seoParams": [],
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": 6,
+      "children": []
+    },
+    {
+      "id": 10,
+      "title": "Contact Us",
+      "alias": "contact-us",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 5,
+      "params": {
+        "margin": 1.85,
+        "published": 1,
+        "bodyBackgroundColor": "rgb(45, 51, 65)"
+      },
+      "seoParams": {
+        "state": 0,
+        "pageTitle": "Contact Us",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 12,
+      "title": "About Us",
+      "alias": "about-us",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 4,
+      "params": {
+        "margin": 1.85,
+        "published": 1,
+        "bodyBackgroundColor": "rgb(45, 51, 65)"
+      },
+      "seoParams": {
+        "state": 0,
+        "pageTitle": "About Us",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 13,
+      "title": "Articles",
+      "alias": "",
+      "component": null,
+      "type": "pageArticles",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": true,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 0,
+      "params": {
+        "published": 1
+      },
+      "seoParams": [],
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": [
+        {
+          "id": 14,
+          "title": "Article",
+          "alias": "",
+          "component": null,
+          "type": "pageArticle",
+          "target": 0,
+          "homepage": false,
+          "isHeading": false,
+          "isHidden": true,
+          "externalUrl": "",
+          "navigationId": 0,
+          "ordering": 0,
+          "params": {
+            "published": 1
+          },
+          "seoParams": [],
+          "createdAt": null,
+          "updatedAt": null,
+          "deletedAt": null,
+          "parent": 13
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Article",
+      "alias": "",
+      "component": null,
+      "type": "pageArticle",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": true,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 0,
+      "params": {
+        "published": 1
+      },
+      "seoParams": [],
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": 13,
+      "children": []
+    },
+    {
+      "id": 15,
+      "title": "Shop",
+      "alias": "shop-1",
+      "component": null,
+      "type": "pageEcommerceProducts",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 2,
+      "params": {
+        "margin": 1.85,
+        "published": 1,
+        "categoryFilter": 0,
+        "bodyBackgroundColor": "rgb(45, 51, 65)"
+      },
+      "seoParams": {
+        "state": 0,
+        "pageTitle": "Shop",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": [
+        {
+          "id": 16,
+          "title": "Product",
+          "alias": "",
+          "component": null,
+          "type": "pageEcommerceProduct",
+          "target": 0,
+          "homepage": false,
+          "isHeading": false,
+          "isHidden": true,
+          "externalUrl": "",
+          "navigationId": 0,
+          "ordering": 0,
+          "params": {
+            "published": 1
+          },
+          "seoParams": [],
+          "createdAt": null,
+          "updatedAt": null,
+          "deletedAt": null,
+          "parent": 15
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Product",
+      "alias": "",
+      "component": null,
+      "type": "pageEcommerceProduct",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": true,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 0,
+      "params": {
+        "published": 1
+      },
+      "seoParams": [],
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": 15,
+      "children": []
+    },
+    {
+      "id": 17,
+      "title": "FAQs",
+      "alias": "faqs",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 1,
+      "ordering": 1,
+      "params": {
+        "margin": 1.85,
+        "published": 1,
+        "bodyBackgroundColor": "rgb(45, 51, 65)"
+      },
+      "seoParams": {
+        "state": 0,
+        "pageTitle": "FAQs",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 18,
+      "title": "Privacy Policy & Terms",
+      "alias": "privacy-policy-terms",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 1,
+      "ordering": 2,
+      "params": {
+        "margin": 1.85,
+        "published": 1,
+        "bodyBackgroundColor": "rgb(45, 51, 65)"
+      },
+      "seoParams": {
+        "state": 0,
+        "pageTitle": "Privacy Policy & Terms",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 22,
+      "title": "News & Events",
+      "alias": "news-events",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 0,
+      "ordering": 3,
+      "params": {
+        "margin": 1.85,
+        "published": 1,
+        "bodyBackgroundColor": "rgb(45, 51, 65)"
+      },
+      "seoParams": {
+        "state": 0,
+        "pageTitle": "News & Events",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 23,
+      "title": "Sign In Required Page",
+      "alias": "sign-in-required",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 4,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Sign In Required Page",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 24,
+      "title": "Sign Out Required Page",
+      "alias": "sign-out-required",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 5,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Sign Out Required Page",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 25,
+      "title": "Terms and Conditions",
+      "alias": "terms-and-conditions",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 6,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Terms and Conditions",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 26,
+      "title": "Privacy Policy",
+      "alias": "privacy-policy",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 7,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Privacy Policy",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    },
+    {
+      "id": 27,
+      "title": "Cookie Policy",
+      "alias": "cookie-policy",
+      "component": null,
+      "type": "pageBlank",
+      "target": 0,
+      "homepage": false,
+      "isHeading": false,
+      "isHidden": false,
+      "externalUrl": "",
+      "navigationId": 2,
+      "ordering": 8,
+      "params": {
+        "published": 1
+      },
+      "seoParams": {
+        "image": "",
+        "state": 0,
+        "pageTitle": "Cookie Policy",
+        "description": ""
+      },
+      "createdAt": null,
+      "updatedAt": null,
+      "deletedAt": null,
+      "parent": null,
+      "children": []
+    }
+  ]
+}

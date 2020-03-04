@@ -22,6 +22,15 @@ const TutorialHeader = () => (
         <HeaderNavigation aria-label="Carbon Tutorial">
             <HeaderMenuItem element={Link} to="/repos">Repositories</HeaderMenuItem>
         </HeaderNavigation>
+        {/*<HeaderNavigation aria-label="Carbon Tutorial">*/}
+        {/*    <HeaderMenuItem element={Link} to="/data">Sortable Condition</HeaderMenuItem>*/}
+        {/*</HeaderNavigation>*/}
+        {/*<HeaderNavigation aria-label="Carbon Tutorial">*/}
+        {/*    <HeaderMenuItem element={Link} to="/tree">Sortable Tree</HeaderMenuItem>*/}
+        {/*</HeaderNavigation>*/}
+        <HeaderNavigation aria-label="Carbon Tutorial">
+            <HeaderMenuItem element={Link} to="/pages">Pages</HeaderMenuItem>
+        </HeaderNavigation>
         <HeaderGlobalBar>
             <HeaderGlobalAction aria-label="Notifications">
                 <Notification20 />
